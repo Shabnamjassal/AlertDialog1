@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">AlertDialog1</string>
+    <string name="CheckBox_list_alert_dialog">CheckBox_list_alert_dialog</string>
+</resources>

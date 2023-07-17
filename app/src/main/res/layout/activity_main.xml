@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/HelloWorld"
+        android:text="HelloWorld"
+        android:textSize="20sp"
+        android:layout_marginLeft="5dp"
+        android:layout_margin="10dp"
+        android:textColor="#D80909"
+        android:textStyle="bold"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enter Your Name"
+        android:textSize="20sp"
+        android:layout_marginLeft="5dp"
+        android:textColor="#0B2095"
+        android:textStyle="bold"
+        />
+    <EditText
+        android:id="@+id/etName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Your Name"
+        android:textSize="20sp"
+        android:textColorHint="#AEA4A4"
+        android:layout_marginLeft="5dp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/value0"
+        android:text="value0"
+        android:textSize="20sp"
+        android:layout_marginLeft="5dp"
+        android:layout_margin="8dp"
+        android:textColor="#151515"
+        android:textStyle="bold"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/Button"
+        android:text="AlertButton"
+        android:layout_marginLeft="5dp"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnSimpleListAlertDialog"
+        android:text="Simple_list_alert_dialog"
+        android:layout_marginLeft="5dp"
+        />
+    <Button
+        android:id="@+id/btnCheckBoxListAlertDialog"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="CheckBox_list_alert_dialog"
+        android:layout_marginLeft="5dp"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnCustomDialog"
+        android:text="CustomDialog"
+        android:layout_marginLeft="5dp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvSelectedColors"
+        android:textSize="20sp"
+        />
+
+
+
+
+</LinearLayout>
